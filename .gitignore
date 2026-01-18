@@ -1,0 +1,41 @@
+# --- Compilazione e Binari ---
+*.hex
+*.bin
+*.elf
+*.o
+*.a
+*.ko
+*.obj
+*.so
+
+# --- Arduino IDE ---
+# Cartelle di build generate dall'IDE
+build/
+bin/
+
+# --- PlatformIO ---
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+.vscode/
+
+# --- File di Sistema e Log ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Credenziali e File Locali ---
+# Se in futuro userai file di intestazione per password Wi-Fi
+*secrets.h
+*config_local.h
+
+# --- Asset del Repository ---
+# Non escludiamo la cartella assets/ perché contiene le immagini del README!
+# Ma escludiamo eventuali file temporanei di editing video o Photoshop
+assets/*.psd
+assets/*.xcf
+assets/*.tmp
+
+tests/
