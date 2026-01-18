@@ -14,7 +14,8 @@ While the original project was designed for **passive operation** (displaying ch
 
 This firmware transforms the static badge into an interactive **Social Radar**. It uses **ESP-NOW** and **RSSI (Signal Strength)** monitoring to detect other nearby badges, automatically swapping contact information when you get close to another attendee.
 
-![Radar Demo](assets/demo-radar.gif)
+![Badge Demo](assets/demo-badge.gif)
+📹 **[Watch full demo video on YouTube](https://youtu.be/3y3iBChB-LI)**
 
 ### Key Logic Overview
 
@@ -28,10 +29,6 @@ This firmware transforms the static badge into an interactive **Social Radar**. 
 2.  **Proximity Sensing**: It monitors the **RSSI** (Signal Strength) of nearby devices.
 3.  **Geiger-Style Alerts**: As you get closer to another user, the buzzer beeps faster and at a higher pitch.
 4.  **Target Acquisition**: If someone stays within immediate range (approx. 1-2 meters) for a few seconds, the device "locks on," triggers an alarm, and updates the E-Paper display with the other person's details and QR code.
-
-<video src="assets/demo-badge.mp4" width="400" controls loop>
-  Il tuo browser non supporta il tag video.
-</video>
 
 ### 🛠 Hardware Configuration
 
