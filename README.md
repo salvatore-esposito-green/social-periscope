@@ -4,7 +4,7 @@
 
 ### 🔗 Project Context & Evolution
 
-This experiment is based on the **[Codemotion Smart Badge](https://github.com/Codemotion-Official/Smart-Badge)**. It was born from the idea of hacking and developing custom add-ons for the **CMNode V0** version.
+This experiment is based on the **[Codemotion Smart Badge](https://github.com/Codemotion-Official/CMNode)**. It was born from the idea of hacking and developing custom add-ons for the **CMNode V0** version.
 
 While the original project was designed for **passive operation** (displaying check-in data), this "Social Periscope" version evolves the hardware into an **active device** capable of real-time peer-to-peer detection and interaction.
 
@@ -127,7 +127,7 @@ struct_message myProfile = {"Name", "Surname", "Role", "Company", "URL"};
 
 ### 🤝 Credits & Acknowledgments
 
-*   **Original Project**: [Codemotion Official Smart Badge](https://github.com/Codemotion-Official/Smart-Badge)
+*   **Original Project**: [Codemotion Official Smart Badge](https://github.com/Codemotion-Official/CMNode)
 *   **Concept**: Hacking the CMNode V0 to explore social interactions at tech conferences.
 
 ### ⚠️ Important Notes
