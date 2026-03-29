@@ -8,7 +8,7 @@ This experiment is based on the **[Codemotion Smart Badge](https://github.com/Co
 
 While the original project was designed for **passive operation** (displaying check-in data), this "Social Periscope" version evolves the hardware into an **active device** capable of real-time peer-to-peer detection and interaction.
 
-![Codemotion Badge Original](assets/codemotion_badge_original.jpg)
+![Codemotion Badge Original](assets/v2-render-2.jpg)
 
 ## Overview: The "Active" Evolution
 
@@ -41,6 +41,59 @@ This version assumes the following components are added to the base CMNode V0:
 *   **Communication**: ESP-NOW (2.4GHz)
 
 ### 🏗️ Physical Build & Assembly
+
+#### v2 — Improved Design
+
+> An updated version of the enclosure with a revised CAD model, optimized for better component fit and aesthetics.
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/v2-render-1.jpg" alt="v2 Render 1" width="100%"/>
+      <p align="center"><em>Photorealistic render — front</em></p>
+    </td>
+    <td width="50%">
+      <img src="assets/v2-render-2.jpg" alt="v2 Render 2" width="100%"/>
+      <p align="center"><em>Photorealistic render — back</em></p>
+    </td>
+  </tr>
+</table>
+
+![v2 3D Animation](assets/v2-animation.gif)
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/v2-schematic-1.jpg" alt="Design schematic 1" width="100%"/>
+      <p align="center"><em>Design schematic — sheet 1</em></p>
+    </td>
+    <td width="50%">
+      <img src="assets/v2-schematic-2.jpg" alt="Design schematic 2" width="100%"/>
+      <p align="center"><em>Design schematic — sheet 2</em></p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/v2-hardware-1.jpg" alt="v2 hardware on table 1" width="100%"/>
+      <p align="center"><em>Badge and supports — table view</em></p>
+    </td>
+    <td width="50%">
+      <img src="assets/v2-hardware-2.jpg" alt="v2 hardware on table 2" width="100%"/>
+      <p align="center"><em>Badge and supports — table view</em></p>
+    </td>
+  </tr>
+</table>
+
+📦 **[Download STL file](assets/social-periscope-v2.stl)**
+
+---
+
+#### v1 — Original Build
+
+> The first physical iteration, built and tested at the Codemotion event.
 
 <table>
   <tr>
